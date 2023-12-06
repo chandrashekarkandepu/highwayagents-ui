@@ -48,7 +48,7 @@ const AddAgency = () => {
 
   return (
     <div className='flex max-w-2xl mx-auto shadow border-b'>
-    <div className='px-8 py-8'>
+    <div className='px-8 py-8 relative '>
       <div className='font-thin text-2xl tracking-wider'>
       <h1>Agency Registration</h1>
       </div>
