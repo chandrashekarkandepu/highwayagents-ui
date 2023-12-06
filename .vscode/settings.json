@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1ac77db4-1482-4442-a8ff-91025a4d6376/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/highwayagents",
+    "appService.deploySubpath": "."
+}

@@ -5,12 +5,14 @@ import AddContractor from './components/AddContractor';
 import AgencyLogin from './components/AgencyLogin';
 import ContractorLogin from './components/ContractorLogin';
 import Home from './components/Home';
-
+import Navbar from './components/Navbar';
 const App = () => {
   return (
   <div>
     <BrowserRouter>
+    <Navbar/>
     <Routes>
+      
       <Route path="/" element={<Home/>}/>
       <Route path='/register/Contractor' element={<AddContractor/>}></Route>
       <Route path="/login/Contractor" element={<ContractorLogin/>}></Route>
